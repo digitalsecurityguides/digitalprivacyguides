@@ -309,8 +309,8 @@ With this in mind:
 | Daily restart | Ensures updates are installed |
 | Automatic updates | Regular software updates patch vulnerabilities. The latest versions may foil tools like Cellebrite and GrayKey | 
 | Public activity | Turn off your public activity on apps like Venmo. There's no good reason for your transations to be public. This activity can be used to tie you to others. [Instructions](https://www.wikihow.com/Delete-Venmo-History) | 
-| Tracking | tbd |
-| Location services | Disable location services by default for apps that don't require your location, then set other apps to "turn on while using" for apps that require your location in the moment like maps, food delivery, or rideshares |
+| Tracking | Tracking is slightly different from location services as it grants apps persmission to track your activity across apps |
+| Location services | Disable location services by default for apps that don't require your location, then set other apps to "turn on while using" for apps that require your location in the moment like maps, food delivery, or rideshares. Location data is sold to advertisers and data brokers which is now being purchased by federal agencies like ICE to locate immigrants |
 | Biometrics | If you don't need biometric authentication (Face ID, fingerprint), it's a good idea to not configure them. Some phones allow you to customize how frequently you're prompted for your passcode. Unfortunately some advanced security settings are unavailable without biometric authentication enabled |
 
 ## Phone Number Masking
@@ -326,17 +326,17 @@ Some examples:
 | --- | --- | --- |
 | Advanced Data Protection | [enable](https://support.apple.com/en-us/108756) | Note this is only available if you have Face ID turned on. This feature configures E2EE encryption for your entire iCloud, including reminders, iMessage, backups, and more |
 | Push notifications | consider disabling | Push alerts from apps can be [tied to your identity](https://www.washingtonpost.com/technology/2024/02/29/push-notification-surveillance-fbi/). If you leave them turned on, you should [turn off notification previews while your phone is locked](https://www.lifewire.com/turn-off-message-preview-iphone-4175842) |
-| 2FA | [enable](https://support.apple.com/guide/iphone/use-two-factor-authentication-iphd709a3c46/ios) | tbd |
+| 2FA | [enable](https://support.apple.com/guide/iphone/use-two-factor-authentication-iphd709a3c46/ios) | 2FA requires a second form of authentication when accessing your account, which means even if someone has your password they can't access your account without the additional authentication |
 | Security key | [configure](https://support.apple.com/en-us/102637) | A security key is a more secure 2FA option than OTP |
 | Account Recovery | [enable](https://support.apple.com/en-us/109345) | An option you can use if you lose access to your account or it's compromised |
-| Face ID / Passcode | <ul> <li>[use a 6 digit passcode](https://support.apple.com/en-us/119586)</li> <li>[enable ‘Face ID Attention’](https://support.apple.com/guide/iphone/change-face-id-and-attention-settings-iph646624222/ios)</li> <li>[disable control center when the phone is locked](https://www.tomsguide.com/how-to/how-to-disable-control-center-on-a-locked-iphone)</li> <li></li> </ul> | tbd |
+| Face ID / Passcode | <ul> <li>[use an alphanumeric password instead of a passcode]([https://support.apple.com/en-us/119586](https://support.apple.com/guide/iphone/set-a-passcode-iph14a867ae/ios))</li> <li>[enable ‘Face ID Attention’](https://support.apple.com/guide/iphone/change-face-id-and-attention-settings-iph646624222/ios)</li> <li>[disable control center when the phone is locked](https://www.tomsguide.com/how-to/how-to-disable-control-center-on-a-locked-iphone)</li> <li></li> </ul> | These settings will make your phone more difficult to break into |
 | Screen Time | [turn off ‘Allow changes to: Passcode & Face ID’](https://www.techbout.com/prevent-others-from-changing-iphone-passcode-87736/) | This disables the ability to make changes to Passcode or Face ID and hides the option from your settings. To increase the effectiveness of this setting, you should set a Screen Time passcode and make sure it’s different from your iPhone passcode. Note: to make changes to Passcode & Face ID, you must turn this setting back on |
-| Find My | [enable](https://www.theverge.com/22697218/iphone-apple-ios-15-find-my-how-to) Find My device tracking even when the device is turned off | tbd |
+| Find My | [enable](https://www.theverge.com/22697218/iphone-apple-ios-15-find-my-how-to) Find My device tracking even when the device is turned off | This allows you to track your phone even if it's turned off |
 | Location Services | [disable](https://support.apple.com/en-us/102647) | Disable for any app that does not require your location for functionality and use “while using app” for everything else. |
-| Allow Apps to Request to Track | [disable](https://support.apple.com/guide/iphone/control-app-tracking-permissions-iph4f4cbd242/ios) | tbd |
-| Stolen device protection | [enable](https://support.apple.com/en-us/120340) | tbd |
-| Airdrop | [disable](https://support.apple.com/en-us/102647) or set to "Contacts Only" | tbd |
-| Advertising ID | tbd | tbd |
+| Allow Apps to Request to Track | [disable](https://support.apple.com/guide/iphone/control-app-tracking-permissions-iph4f4cbd242/ios) | As mentioned earlier, tracking allows apps to track your activity across apps |
+| Stolen device protection | [enable](https://support.apple.com/en-us/120340) | Enables a suite of security measures to protect your phone in case of theft |
+| Airdrop | [disable](https://support.apple.com/en-us/102647) or set to "Contacts Only" | This protects your phone from bad actors attempting to send you malicious content |
+| Advertising ID | [disable and turn off personalized ads](https://www.howtogeek.com/732909/how-to-reset-your-advertising-id-on-iphone/) | Your advertising ID is used for targeted ads, which when pooled together, builds a very detailed profile of who you are and your activities |
 
 ## Android Settings
 Start [here](https://veepn.com/blog/10-android-privacy-settings/) to understand the privacy and security settings available to you.
@@ -344,10 +344,10 @@ Start [here](https://veepn.com/blog/10-android-privacy-settings/) to understand 
 | Setting | Action | Details |
 | --- | --- | --- |
 | Notifications | [consider disabling](https://support.google.com/android/answer/9079661?hl=en) | Don’t show any notifications or Hide silent conversations and notifications. Turn off sensitive notifications when locked |
-| Web & App Activity | [disable](https://support.google.com/accounts/answer/54068?hl=en&co=GENIE.Platform%3DAndroid) | tbd |
+| Web & App Activity | [disable](https://support.google.com/accounts/answer/54068?hl=en&co=GENIE.Platform%3DAndroid) | This setting allows Google to track nearly everything you do on your phone |
 | Location | [disable](https://support.google.com/accounts/answer/3467281?hl=en) | Deny anything that doesn’t need your location, and enable “while in use” for apps that need your location sometimes |
-| Personalization | [disable](https://support.google.com/My-Ad-Center-Help/answer/12155656?hl=en&co=GENIE.Platform%3DAndroid#turn-on-or-off-personalized-ads) | tbd |
-| 2FA | [enable](https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid) | tbd |
+| Personalization | [disable](https://support.google.com/My-Ad-Center-Help/answer/12155656?hl=en&co=GENIE.Platform%3DAndroid#turn-on-or-off-personalized-ads) | Personalized ads are a massive source of data that's collected about you and your activity |
+| 2FA | [enable](https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid) | 2FA requires a second form of authentication when accessing your account, which means even if someone has your password they can't access your account without the additional authentication |
 | Admin privileges | [disable](https://support.google.com/android/answer/9431959?hl=en) | Disable admin privileges for apps that don’t require it |
 | Permission manager | [review permissions](https://support.google.com/android/answer/9431959?hl=en) | Use this to review individual app permissions |
 
@@ -394,17 +394,17 @@ Looking to disappear? Consider [Tails](https://tails.net/index.en.html).
 | --- | --- | --- |
 | FileVault | [enable](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac) | Full disk encryption prevents someone from exfiltrating data on your hard drive in the event your computer is seized or stolen. You must save your recovery key in a safe place that’s not on your computer’s hard drive |
 | Automatic updates | [enable](https://support.apple.com/guide/mac-help/keep-your-mac-up-to-date-mchlpx1065/mac) | Regular software updates patch vulnerabilities. Pair this with restaring your laptop every day to ensure updates are installed in a timely manner |
-| Antivirus | tbd | MacOS has built-in protection tools that help prevent malware from being installed. Here’s an [explanation](https://www.macworld.com/article/670537/do-macs-need-antivirus.html) of those features and their shortfalls. Some options available for MacOS:<br> <ul> <li>[NordVPN Threat Protection Pro](https://nordvpn.com/features/threat-protection/)</li> <li>[Bitdefender](https://www.bitdefender.com/en-us/)</li> <li>[Malwarebytes](https://www.malwarebytes.com/)</li> <li>[Surfshark One](https://surfshark.com/one)</li> </ul> |
+| Antivirus | Sign up / purchase | MacOS has built-in protection tools that help prevent malware from being installed. Here’s an [explanation](https://www.macworld.com/article/670537/do-macs-need-antivirus.html) of those features and their shortfalls. Some options available for MacOS:<br> <ul> <li>[NordVPN Threat Protection Pro](https://nordvpn.com/features/threat-protection/)</li> <li>[Bitdefender](https://www.bitdefender.com/en-us/)</li> <li>[Malwarebytes](https://www.malwarebytes.com/)</li> <li>[Surfshark One](https://surfshark.com/one)</li> </ul> |
 
 ## Windows Settings
 | Setting | Action | Details |
 | --- | --- | --- |
 | Bitlocker | [enable](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) | Full disk encryption prevents someone from exfiltrating data on your hard drive in the event your computer is seized or stolen. You must save your recovery key in a safe place that’s not on your computer’s hard drive |
-| Diagnostic data | [disable](https://learn.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#diagnostic-data-settings) | tbd |
-| Improve inking and typing | [disable](https://support.microsoft.com/en-us/windows/speech-voice-activation-inking-typing-and-privacy-149e0e60-7c93-dedd-a0d8-5731b71a4fef) | tbd |
-| Tailored experiences | [disable](https://windowsloop.com/change-privacy-settings-in-windows-11/) | tbd |
+| Diagnostic data | [disable](https://learn.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization#diagnostic-data-settings) | Prevents optional diagnostic data from being sent to Microsoft, which may include app activity and website interactions |
+| Improve inking and typing | [disable](https://support.microsoft.com/en-us/windows/speech-voice-activation-inking-typing-and-privacy-149e0e60-7c93-dedd-a0d8-5731b71a4fef) | Any personalization features can end up leading back to you |
+| Tailored experiences | [disable](https://windowsloop.com/change-privacy-settings-in-windows-11/) | Tailored experiences are partly used to serve you personalize ads |
 | Automatic updates | enable | Regular software updates patch vulnerabilities. Pair this with restaring your laptop every day to ensure updates are installed in a timely manner |
-| Antivirus | tbd | Windows Defender is built-in and enough for 99% of people. You may wish to supplement it if you’re torrenting or downloading unofficial software. Some options available for Windows:<br> <ul> <li>[NordVPN Threat Protection Pro](https://nordvpn.com/features/threat-protection/)</li> <li>[Bitdefender](https://www.bitdefender.com/en-us/)</li> <li>[Malwarebytes](https://www.malwarebytes.com/)</li> <li>[Surfshark One](https://surfshark.com/one)</li> </ul> |
+| Antivirus | Sign up for / purchase | Windows Defender is built-in and enough for 99% of people. You may wish to supplement it if you’re torrenting or downloading unofficial software. Some options available for Windows:<br> <ul> <li>[NordVPN Threat Protection Pro](https://nordvpn.com/features/threat-protection/)</li> <li>[Bitdefender](https://www.bitdefender.com/en-us/)</li> <li>[Malwarebytes](https://www.malwarebytes.com/)</li> <li>[Surfshark One](https://surfshark.com/one)</li> </ul> |
 
 ## Cloud Storage
 The safest place your data can be stored is locally on your physical devices. If that’s not an option, it’s possible to improve cloud storage security.
@@ -426,8 +426,8 @@ As mentioned before, you want to avoid using smart devices if they don't require
 
 | Device | Guide |
 | --- | --- |
-| smart TVs | tbd |
-| Fitbit | tbd |
+| smart TVs | All smart TVs collect user data. Learn how to disable [here](https://www.consumerreports.org/electronics/privacy/how-to-turn-off-smart-tv-snooping-features-a4840102036/) |
+| Fitbit | Read this [report](https://privacy.commonsense.org/privacy-report/Fitbit) on Fitbit's privacy practices. Here's a [guide](https://support.google.com/fitbit/answer/14236402?hl=en&co=GENIE.Platform%3DAndroid) for removing some of the data collected |
 
 # Software alternatives
 For a comprehensive list of software alternatives, check out [AlternativeTo](https://alternativeto.net/).
